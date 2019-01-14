@@ -17,29 +17,24 @@ The "BacktestingEngine" class is for accurate backtesting and "Strategy" templat
 ### 3. Time Series Analysis
 Python code is always not as brief as R code in time series analysis. The "timeSeriesAnalysis" has packaged python code and can be directly imported just as how packages are imported in R. This can highly improve efficiency in analysis.
 
-#### Models that have been packaged:
+#### Models that have been packed:
 1) ARIMA model
 2) Co-Integration model
 
 ### 4. Option Pricing
-#### Functions that have been packaged:
+#### Functions that have been packed:
 1) European option pricing
 2) Implied volatilites
 3) Greeks
 
-### 5. Text Mining
-#### Functions that have been packaged:
-1) Text preprocess
-2) Downloading news from given API
-
-### 6. General Functions
-#### Functions that have been packaged:
+### 5. General Functions
+#### Functions that have been packed:
 1) Downloading stock prices from Yahoo!Finance, Quandl, IEX
 2) Collecting filenames in a given dir
 
-### 7. Machine Learning
+### 6. Machine Learning
 #### To build algorithms in Python.
-#### Algorithms that have been packaged:
+#### Algorithms that have been packed:
 1) Classfication:
    a) K-Neighbors;
    b) Decision Trees
