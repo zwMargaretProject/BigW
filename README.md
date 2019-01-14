@@ -1,6 +1,6 @@
 # BigW
 
-#### The infrastructure is for both quick backtesting and accurate (tick-by-tick or bar-by-bar) backtesting, along with neccessary analytics tools, including modules for time series analysis and option pricing.
+#### This is for both quick backtesting and accurate (tick-by-tick or bar-by-bar) backtesting, along with neccessary analytics tools, including modules for time series analysis and option pricing.
 
 ### 1. Quick Backtesting
 
