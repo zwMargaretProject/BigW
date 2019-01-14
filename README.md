@@ -53,9 +53,9 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 4) Stack (built from Deque and Array)
 5) Queue (built from Deque)
 6) Binary Tree
-7) Hashed Table
-8) Dict APT (built from Hashed Table)
-9) Set APT (built from Hashed Table)
+7) Hash Table
+8) Dict APT (built from Hash Table)
+9) Set APT (built from Hash Table)
 #### Basic algorithms include
 1) Searching: a) Binary Search
 2) Sorting: a) Bubble Sort b) Merge Sort c) Quick Sort d) Divide and Merge Sort
