@@ -59,6 +59,7 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 #### Basic algorithms include
 1) Searching: a) Binary Search
 2) Sorting: a) Bubble Sort b) Merge Sort c) Quick Sort d) Divide and Merge Sort
+3) External Sort
 
 ### 8. Portfolio Management
 1) Efficient Frontier, Optimizing portfolios with constraints and no constraints
