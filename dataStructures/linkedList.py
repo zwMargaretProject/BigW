@@ -27,11 +27,20 @@ class LinkedList(object):
         self.tailnode = node
         self.length += 1
     
-    def appendLeft(self, value):
+    def appendleft(self, value):
         node = Node(value=value)
         node.next = self.root.next
         self.root.next = node
         self.length += 1
+    
+    def pop(self):
+        if self.length == 0:
+            return
+        tailnode = self.tailnode
+        tailnode.prev.next = None
+        del tailnode
+        self.length -= 1
+        return tailnode
 
     def _iter_node(self):
         if self.root.next is not None:
@@ -68,5 +77,6 @@ class LinkedList(object):
     def clear(self):
         for node in self._iter_node():
             del node
+        self.length = 0
 
 
