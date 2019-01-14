@@ -20,6 +20,7 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 #### Models that have been packed:
 1) ARIMA model
 2) Co-Integration model
+3) ARCH model
 
 ### 4. Option Pricing
 #### Functions that have been packed:
@@ -43,3 +44,20 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 3) Clustering:
    a) K-Means;
    b) Hierarchical Clustering 
+   
+### 7. Data Structures and Basic Algorithms
+#### Data stuctures include
+1) Linked List
+2) Circle Linked List
+3) Deque (built from Circle Linked List)
+4) Stack (built from Deque and Array)
+5) Queue (built from Deque)
+6) Binary Tree
+7) Hashed Table
+8) Dict APT (built from Hashed Table)
+9) Set APT (built from Hashed Table)
+#### Basic algorithms include
+1) Searching: a) Binary Search
+2) Sorting: a) Bubble Sort b) Merge Sort c) Quick Sort d) Divide and Merge Sort
+
+
