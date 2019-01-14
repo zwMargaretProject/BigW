@@ -35,12 +35,13 @@ class LinkedList(object):
     
     def pop(self):
         if self.length == 0:
-            return
+            raise Exception("pop from an empty Linked List")
         tailnode = self.tailnode
         tailnode.prev.next = None
+        value = tailnode.value
         del tailnode
         self.length -= 1
-        return tailnode
+        return value
 
     def _iter_node(self):
         if self.root.next is not None:
@@ -73,7 +74,22 @@ class LinkedList(object):
                 prevnode.next = currnode.next
                 del currnode 
                 self.length -= 1
+                return
+            prevnode = currnode
+            currnode = currnode.next
     
+    def popleft(self):
+        if self.root.next is None:
+            raise Exception("pop from an empty Linked List")
+        headnode = self.root.next
+        self.root.next = headnode.next
+        self.length -= 1
+        value = headnode.value
+        del headnode
+        return value
+
+
+
     def clear(self):
         for node in self._iter_node():
             del node
