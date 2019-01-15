@@ -1,4 +1,4 @@
-from collections import CircalDoubleLinkedList
+from circalDoubleLinkedList import CircalDoubleLinkedList
 
 class Deque(CircalDoubleLinkedList):
     def pop(self):

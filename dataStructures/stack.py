@@ -1,4 +1,4 @@
-from collections import Deque
+from deque import Deque
 
 class Stack(object):
     def __init__(self):
