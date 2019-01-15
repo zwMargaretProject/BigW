@@ -52,7 +52,7 @@ class EfficientFrontier(object):
 	def min_func_sharpe(self, weights):
 		return -self.statistics(weights)[2]
 
-def get_max_sr_weights(self, weights_sum, bound1, bound2):
+	def get_max_sr_weights(self, weights_sum, bound1, bound2):
 		no_assets = self.no_assets
 		cons = ({'type':'eq', 'fun': lambda x : np.sum(x) - weights_sum})
 		bnds = tuple((bound1,bound2) for x in range(no_assets))
