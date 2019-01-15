@@ -48,18 +48,22 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 ### 7. Data Structures and Basic Algorithms
 #### Data stuctures include
 1) Linked List
-2) Circle Linked List
-3) Deque (built from Circle Linked List)
+2) Circle Double Linked List
+3) Deque (built from Circle Double Linked List)
 4) Stack (built from Deque and Array)
 5) Queue (built from Deque)
 6) Binary Tree
 7) Hash Table
 8) Dict APT (built from Hash Table)
 9) Set APT (built from Hash Table)
+10) Binary Search Tree
+11) Max Heap
+12) Priority Queue
 #### Basic algorithms include
-1) Searching: a) Binary Search
-2) Sorting: a) Bubble Sort b) Merge Sort c) Quick Sort d) Divide and Merge Sort
+1) Searching: a) Binary Search b) Linear Search
+2) Sorting: a) Bubble Sort b) Select Sort c) Insert Sort d) Quick Sort e) Merge Sort
 3) External Sort
+4) Recursion build from Stack
 
 ### 8. Portfolio Management
 1) Efficient Frontier, Optimizing portfolios with constraints and no constraints
