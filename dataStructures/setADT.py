@@ -1,7 +1,7 @@
 
 from hashTable import HashTable
 
-class setADT(object):
+class setADT(HashTable):
     def add(self, key):
         return super(setADT, self).add(key, True)
     
