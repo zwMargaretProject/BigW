@@ -34,8 +34,7 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 2) Collecting filenames in a given dir
 
 ### 6. Machine Learning
-#### To build algorithms in Python.
-#### Algorithms that have been packed:
+#### Machine Learning algorithms in Python include:
 1) Classfication:
    a) K-Neighbors;
    b) Decision Trees;
