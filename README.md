@@ -38,9 +38,10 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 #### Algorithms that have been packed:
 1) Classfication:
    a) K-Neighbors;
-   b) Decision Trees
+   b) Decision Trees;
+   c) Logistic Regression;
 2) Regression:
-   a) OLS Regression;
+   a) OLS Linear Regression;
 3) Clustering:
    a) K-Means;
    b) Hierarchical Clustering 
