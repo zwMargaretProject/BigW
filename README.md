@@ -14,26 +14,7 @@ Also, in order to get detail statistics, accurate backtesting is required.
 
 The "BacktestingEngine" class is for accurate backtesting and "Strategy" template calss is for generating signals and can be designed for personal requirements.
 
-### 3. Time Series Analysis
-Python code is always not as brief as R code in time series analysis. The "timeSeriesAnalysis" has packaged python code and can be directly imported just as how packages are imported in R. This can highly improve efficiency in analysis.
-
-#### Models that have been packed:
-1) ARIMA model
-2) Co-Integration model
-3) ARCH model
-
-### 4. Option Pricing
-#### Functions that have been packed:
-1) European option pricing
-2) Implied volatilites
-3) Greeks
-
-### 5. General Functions
-#### Functions that have been packed:
-1) Downloading stock prices from Yahoo!Finance, Quandl, IEX
-2) Collecting filenames in a given dir
-
-### 6. Machine Learning
+### 3. Machine Learning
 #### Machine Learning algorithms in Python include:
 1) Classfication:
    a) K-Neighbors;
@@ -44,8 +25,12 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 3) Clustering:
    a) K-Means;
    b) Hierarchical Clustering 
-   
-### 7. Data Structures and Basic Algorithms
+
+### 4. Deep Learning
+#### Deep Learning algorithms in Python include:
+1) CNN
+
+### 5. Data Structures and Basic Algorithms
 #### Data stuctures include
 1) Linked List
 2) Circle Double Linked List
@@ -64,7 +49,26 @@ Python code is always not as brief as R code in time series analysis. The "timeS
 2) Sorting: a) Bubble Sort b) Select Sort c) Insert Sort d) Quick Sort e) Merge Sort
 3) External Sort
 4) Recursion build from Stack
+  
+### 6. Time Series Analysis
+Python code is always not as brief as R code in time series analysis. The "timeSeriesAnalysis" has packaged python code and can be directly imported just as how packages are imported in R. This can highly improve efficiency in analysis.
 
-### 8. Portfolio Management
+#### Models that have been packed:
+1) ARIMA model
+2) Co-Integration model
+3) ARCH model
+
+### 7. Option Pricing
+#### Functions that have been packed:
+1) European option pricing
+2) Implied volatilites
+3) Greeks
+
+### 8. General Functions
+#### Functions that have been packed:
+1) Downloading stock prices from Yahoo!Finance, Quandl, IEX
+2) Collecting filenames in a given dir
+ 
+### 9. Portfolio Management
 1) Efficient Frontier, Optimizing portfolios with constraints and no constraints
 
