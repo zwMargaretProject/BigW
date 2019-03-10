@@ -1,10 +1,10 @@
 # BigW
 
-#### This is for both quick backtesting and accurate (tick-by-tick or bar-by-bar) backtesting, along with neccessary analytics tools, including modules for time series analysis and option pricing.
+#### This is for both quick backtesting and accurate (tick-by-tick or bar-by-bar) backtesting, along with neccessary analytics tools, including modules for time series analysis and options pricing.
 
 ### 1. Quick Backtesting
 
-Inner logits, including computing positions and portfolio returns, are already packaged. The "QuickStrategy" template class is for generating singals and can be designed for personal requirements.
+Inner logits, including computing positions and portfolio returns, are already packd. The "QuickStrategy" template class is for generating singals and can be designed for personal requirements.
 
 ### 2. Accurate Backtesting
 
@@ -51,16 +51,16 @@ The "BacktestingEngine" class is for accurate backtesting and "Strategy" templat
 4) Recursion build from Stack
   
 ### 6. Time Series Analysis
-Python code is always not as brief as R code in time series analysis. The "timeSeriesAnalysis" has packaged python code and can be directly imported just as how packages are imported in R. This can highly improve efficiency in analysis.
+Python code is always not as brief as R code in time series analysis. The "timeSeriesAnalysis" has packed python code and can be directly imported just as how packages are imported in R. This can highly improve efficiency of time series analysis in Python.
 
 #### Models that have been packed:
 1) ARIMA model
 2) Co-Integration model
 3) ARCH model
 
-### 7. Option Pricing
+### 7. Options Pricing
 #### Functions that have been packed:
-1) European option pricing
+1) European options pricing
 2) Implied volatilites
 3) Greeks
 
